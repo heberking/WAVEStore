@@ -1,0 +1,40 @@
+.explosion {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+}
+
+.item-img {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.bg {
+    background: url('../../../assets/img/agustinus-nathaniel-Z96okuOmPos-unsplash.jpg');
+    background-position: left;
+    height: 100%;
+}
+
+/**********
+  Buttons
+***********/
+    
+
+input[type="radio"]{
+    display:none;
+}
+
+btn-group{
+    border: 1px solid black !important;
+}
+
+.colorBox{
+    border: 1px solid rgba(0, 0, 0, .1);
+    width: 30px;
+    height: 30px;
+}
+
+.send { 
+    display: table;
+    margin: 0 auto;
+}

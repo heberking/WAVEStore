@@ -1,0 +1,40 @@
+﻿<!-- Layout -->
+<nb-layout>
+    <!-- Navbar -->
+    <nb-layout-header *ngIf="router.url != '/login' && router.url != '/register'">
+        <a class="navbar-brand" routerLink="/"><img src="../assets/img/favicon-32x32.png" alt="www"> W A V E</a>
+        <a class="nav-item nav-link" routerLink="/shop">Shop</a>
+
+        <a class="ml-left" routerLink="/cart"><nb-icon class="cart right" [options]="{ animation: { type: 'pulse' } }" icon="shopping-cart-outline"></nb-icon><span class="badge badge-danger">{{this.cart}}</span></a>
+        <a class="nav-item nav-link right" *ngIf="!currentUser" routerLink="/login">Login</a>
+        <a class="nav-item nav-link right" *ngIf="currentUser" (click)="logout()">Logout</a>
+    </nb-layout-header>
+
+    <!-- Csak a Shop oldalakon látható -->
+    <nb-sidebar *ngIf="router.url.includes('/shop') && !this.mobile">
+        <a class="sidebarItem" routerLink="/shop">All Products</a><br><hr>
+        <a class="sidebarItem" routerLink="/shop/hoodies">Hoodies</a><br><hr>
+        <a class="sidebarItem" routerLink="/shop/t-shirts">T-Shirts</a><br><hr>
+        <a class="sidebarItem" routerLink="/shop/jackets">Jackets</a><br><hr>
+        <a class="sidebarItem" routerLink="/shop/sneakers">Sneakers</a><br><hr>
+    </nb-sidebar>
+
+    <nb-layout-column>
+        <a *ngIf="router.url != '/'" (click)="back()">Back</a>
+        <alert></alert>
+        <router-outlet></router-outlet>
+    </nb-layout-column>
+
+    <!-- <nb-layout-footer>Contact us</nb-layout-footer> -->
+</nb-layout>
+
+
+<!-- credits -->
+<!-- <div class="text-center">
+    <p>
+        <a href="http://jasonwatmore.com/post/2018/10/29/angular-7-user-registration-and-login-example-tutorial" target="_top">Angular 7 - User Registration and Login Example & Tutorial</a>
+    </p>
+    <p>
+        <a href="http://jasonwatmore.com" target="_top">JasonWatmore.com</a>
+    </p>
+</div> -->

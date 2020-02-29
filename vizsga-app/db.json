@@ -1,0 +1,476 @@
+{
+  "cart": [
+    {
+      "id": 1,
+      "username": "norbigeci",
+      "itemId": 3,
+      "itemName": "Givenchy",
+      "color": "Black",
+      "price": "50EUR",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1242725_1_zoom.jpg"
+    },
+    {
+      "id": 2,
+      "username": "norbigeci",
+      "itemId": 1,
+      "itemName": "Balenciaga",
+      "color": "white",
+      "price": "30EUR",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1314315_1_zoom.jpg"
+    },
+    {
+      "id": 3,
+      "username": "user",
+      "itemId": 1,
+      "itemName": "Balenciaga",
+      "color": "white",
+      "price": "30EUR",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1314315_1_zoom.jpg"
+    }
+  ],
+  "clothing": [
+    {
+      "id": 1,
+      "typeId": 1,
+      "name": "Phipps",
+      "type": "T-shirt",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1335564_1_zoom.jpg",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "color": "Cream",
+      "price": "240EUR"
+    },
+    {
+      "id": 2,
+      "typeId": 1,
+      "name": "Versace",
+      "type": "T-shirt",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1314950_1_zoom.jpg",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "color": "Black",
+      "price": "430EUR"
+    },
+    {
+      "id": 3,
+      "typeId": 1,
+      "name": "Valentino",
+      "type": "T-shirt",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1312838_1_zoom.jpg",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "color": "Black",
+      "price": "567EUR"
+    },
+    {
+      "id": 4,
+      "typeId": 1,
+      "name": "Off-White",
+      "type": "T-shirt",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1312242_1_zoom.jpg",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "color": "Grey",
+      "price": "400EUR"
+    },
+    {
+      "id": 5,
+      "typeId": 1,
+      "name": "Off-White",
+      "type": "T-shirt",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1314986_1_zoom.jpg",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "color": "Black",
+      "price": "500EUR"
+    },
+    {
+      "id": 6,
+      "typeId": 1,
+      "name": "Raf Simons",
+      "type": "T-shirt",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1328951_1_zoom.jpg",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "color": "Cream",
+      "price": "257EUR"
+    },
+    {
+      "id": 7,
+      "typeId": 3,
+      "name": "Moncler",
+      "type": "Jacket",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1332734_1_zoom.jpg",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "color": "Black",
+      "price": "415EUR"
+    },
+    {
+      "id": 8,
+      "typeId": 3,
+      "name": "Fendi",
+      "type": "Jacket",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1337101_1_zoom.jpg",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "color": "White",
+      "price": "1490EUR"
+    },
+    {
+      "id": 9,
+      "typeId": 3,
+      "name": "Balenciaga",
+      "type": "Jacket",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1314281_1_zoom.jpg",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "color": "Black",
+      "price": "1790EUR"
+    },
+    {
+      "id": 10,
+      "typeId": 3,
+      "name": "Fear of God",
+      "type": "Jacket",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1313161_1_zoom.jpg",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "color": "Lightblue",
+      "price": "1384EUR"
+    },
+    {
+      "id": 11,
+      "typeId": 3,
+      "name": "POLO Ralph Lauren",
+      "type": "Jacket",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1339442_1_zoom.jpg",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "color": "Blue",
+      "price": "151EUR"
+    },
+    {
+      "id": 12,
+      "typeId": 3,
+      "name": "AND WANDER",
+      "type": "Jacket",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1336826_1_zoom.jpg",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "color": "Blue",
+      "price": "492EUR"
+    },
+    {
+      "id": 13,
+      "typeId": 3,
+      "name": "STONE ISLAND",
+      "type": "Jacket",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1340073_1_zoom.jpg",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "color": "Green",
+      "price": "475EUR"
+    },
+    {
+      "id": 14,
+      "typeId": 1,
+      "name": "Balenciaga",
+      "type": "T-shirt",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1314315_1_zoom.jpg",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "color": "white",
+      "price": "30EUR"
+    },
+    {
+      "id": 15,
+      "typeId": 1,
+      "name": "EYE/LOEWE/NATURE",
+      "type": "T-shirt",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1328108_1_zoom.jpg",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "color": "White",
+      "price": "20EUR"
+    },
+    {
+      "id": 16,
+      "typeId": 1,
+      "name": "Givenchy",
+      "type": "T-shirt",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1242725_1_zoom.jpg",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "color": "Black",
+      "price": "50EUR"
+    },
+    {
+      "id": 17,
+      "typeId": 2,
+      "name": "VETEMENTS",
+      "type": "Hoodie",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1333448_1_zoom.jpg",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "color": "Grey",
+      "price": "550EUR"
+    },
+    {
+      "id": 18,
+      "typeId": 2,
+      "name": "SAINT LAURENT",
+      "type": "Hoodie",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1326111_1_zoom.jpg",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "color": "Grey",
+      "price": "590EUR"
+    },
+    {
+      "id": 19,
+      "typeId": 2,
+      "name": "GUCCI",
+      "type": "Hoodie",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1311849_1_zoom.jpg",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "color": "Grey",
+      "price": "2200EUR"
+    },
+    {
+      "id": 20,
+      "typeId": 2,
+      "name": "Balenciaga",
+      "type": "Hoodie",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1347436_1_zoom.jpg",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "color": "Grey",
+      "price": "695EUR"
+    },
+    {
+      "id": 21,
+      "typeId": 2,
+      "name": "PALM ANGELS",
+      "type": "Hoodie",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1324699_1_zoom.jpg",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "color": "Grey",
+      "price": "100EUR"
+    },
+    {
+      "id": 22,
+      "typeId": 2,
+      "name": "BURBERRY",
+      "type": "Hoodie",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1310901_1_zoom.jpg",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "color": "Black",
+      "price": "10EUR"
+    },
+    {
+      "id": 23,
+      "typeId": 2,
+      "name": "Gucci",
+      "type": "Hoodie",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1311910_1_zoom.jpg",
+      "size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "color": "Green",
+      "price": "100EUR"
+    },
+    {
+      "id": 24,
+      "typeId": 4,
+      "name": "Adidas Yeezy 700 Wave Runner",
+      "type": "Sneaker",
+      "img": "https://www.flightclub.com/media/catalog/product/cache/1/image/1600x1140/9df78eab33525d08d6e5fb8d27136e95/8/0/802501_02.jpg",
+      "size": [
+        "41",
+        "42",
+        "43",
+        "44"
+      ],
+      "color": "white",
+      "price": "390EUR"
+    },
+    {
+      "id": 25,
+      "typeId": 4,
+      "name": "YEEZY BOOST 350 V2",
+      "type": "Sneaker",
+      "img": "https://www.flightclub.com/media/catalog/product/cache/1/image/1600x1140/9df78eab33525d08d6e5fb8d27136e95/1/6/168022_2.jpg",
+      "size": [
+        "41",
+        "42",
+        "43",
+        "44"
+      ],
+      "color": "Grey",
+      "price": "490EUR"
+    },
+    {
+      "id": 26,
+      "typeId": 4,
+      "name": "YEEZY BOOST 350 V2",
+      "type": "Sneaker",
+      "img": "https://www.flightclub.com/media/catalog/product/cache/1/image/1600x1140/9df78eab33525d08d6e5fb8d27136e95/8/0/804276_02.jpg",
+      "size": [
+        "41",
+        "42",
+        "43",
+        "44"
+      ],
+      "color": "Butter",
+      "price": "490EUR"
+    }
+  ],
+  "newArrivals": [
+    {
+      "id": 1,
+      "name": "Balenciaga",
+      "type": "T-shirt",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1314315_1_zoom.jpg",
+      "color": "white",
+      "price": "30EUR"
+    },
+    {
+      "id": 2,
+      "name": "EYE/LOEWE/NATURE",
+      "type": "T-shirt",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1328108_1_zoom.jpg",
+      "color": "White",
+      "price": "20EUR"
+    },
+    {
+      "id": 3,
+      "name": "Givenchy",
+      "type": "T-shirt",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1242725_1_zoom.jpg",
+      "color": "Black",
+      "price": "50EUR"
+    },
+    {
+      "id": 4,
+      "name": "PALM ANGELS",
+      "type": "Hoodie",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1324699_1_zoom.jpg",
+      "color": "white",
+      "price": "100EUR"
+    },
+    {
+      "id": 5,
+      "name": "BURBERRY",
+      "type": "Hoodie",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1310901_1_zoom.jpg",
+      "color": "white",
+      "price": "10EUR"
+    },
+    {
+      "id": 6,
+      "name": "Gucci",
+      "type": "Hoodie",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1311910_1_zoom.jpg",
+      "color": "white",
+      "price": "100EUR"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

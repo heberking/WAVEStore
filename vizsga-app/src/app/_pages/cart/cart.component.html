@@ -1,0 +1,62 @@
+
+<div *ngIf="cart != null" class="container-fluid mt-4">
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <h1>🛒</h1>
+      <h1>Your cart</h1>
+      <hr style="width: 50%">
+      <p class="text-muted">{{this.countItems}} item(s)</p>
+    </div>
+  </div>
+
+  <!-- <h1 *ngIf="currentUser != null">{{currentUser.username}}</h1> -->
+  <div class="row ">
+    <div class="col-12">
+      <table *ngIf="cart != null" class="mt-5" style="margin: 0 auto;width:50%">
+        <tr>
+          <th>Look</th>
+          <th>Name</th>
+          <th>Size</th>
+          <th>Color</th>
+          <th>Price</th>
+        </tr>
+        <tr *ngFor="let i of cart">
+          <ng-container *ngIf="currentUser.username == i.username">
+          <td ><img style="width: 100px" src="{{i.img}}" alt="clothing"></td>
+          <td style="width:25%">{{i.itemName}}</td>
+          <td>XS</td>
+          <td>{{i.color}}</td>
+          <td>{{i.price}}</td>
+          <td>
+            <button (click)="removeItem(i.id)" class="btn btn-light">
+              X
+            </button>
+          </td>
+          </ng-container>
+        </tr>
+      </table>
+      <hr *ngIf="cart != null" style="width: 50%">
+      
+    </div>
+
+    <div class="col-12">
+
+
+      <button class="btn btn-light checkout">Checkout</button>
+    </div>
+
+  </div> <!--Row záró-->
+
+</div>
+
+
+
+<!-- <h1>Hi {{currentUser.firstName}}!</h1>
+<p>You're logged in with Angular 7!!</p>
+<h3>All registered users:</h3>
+<ul>
+    <li *ngFor="let user of users">
+        {{user.username}} ({{user.firstName}} {{user.lastName}})
+        - <a (click)="deleteUser(user.id)" class="text-danger">Delete</a>
+    </li>
+</ul> -->

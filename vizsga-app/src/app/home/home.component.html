@@ -1,0 +1,42 @@
+﻿
+
+<div class="container-fluid brand d-flex align-items-center text-center">
+    <img src="../../assets/img/jeremy-bishop-tqG48KOMKfY-unsplash.jpg" alt="bg" class="img-fluid bg">
+    <h4 class="align-middle brandName text-focus-in">WWW</h4>
+    <h5 class="store">STORE</h5>
+</div>
+
+<div class="container-fluid" style="margin-top: 60px">
+    <div class="row text-center justify-content-center">
+        <a routerLink="/shop">Shop</a>
+    </div>
+
+    <!-- Welcome text -->
+    <div class="row ml-5 mt-5">
+        <!-- <h1>Welcome <p *ngIf="currentUser != null">{{currentUser.username}}</p></h1> -->
+        <div class="col-12">
+            <h4>New Arrivals</h4>
+            <hr class="ml-3" style="position: absolute; left: 0; width: 50%">
+        </div>
+    </div>
+  
+    <!-- New Arrivals -->
+    <div class="row mt-5 ml-5 mr-5">
+        <div *ngFor="let i of newArrivals" class="col-md-3 col-sm-12 col-xs-12 mt-4">
+            <div data-aos="fade-up" data-aos-once="true">
+            <div class="card h-100 shadow rounded grow">
+                <div class="card-header text-center">{{i.name}} - {{i.type}}</div>    
+                <img class="card-img-top img-fluid img-list" src="{{i.img}}" alt="Item">
+                <div class="card-body text-center">
+                    <button type="submit" routerLink="/item/{{i.id}}" class="text-center btn send">
+                        View Item
+                        <br>
+                        <b>{{i.price}}</b>
+                    </button>
+                </div>
+            </div>
+            </div>
+        </div> 
+    </div>  
+    
+</div><br><br> <!-- Container záró -->
