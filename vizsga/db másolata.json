@@ -1,0 +1,162 @@
+{
+  "cart": [
+    {
+      "id": 1,
+      "username": "asdasd123",
+      "itemId": 3,
+      "itemName": "Givenchy",
+      "color": "Black",
+      "price": "50EUR",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1242725_1_zoom.jpg"
+    },
+    {
+      "id": 2,
+      "username": "asdasd123",
+      "itemId": 2,
+      "itemName": "EYE/LOEWE/NATURE",
+      "color": "White",
+      "price": "20EUR",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1328108_1_zoom.jpg"
+    },
+    {
+      "id": 3,
+      "username": "asdasd123",
+      "itemId": 6,
+      "itemName": "Gucci",
+      "color": "white",
+      "price": "100EUR",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1311910_1_zoom.jpg"
+    },
+    {
+      "id": 4,
+      "username": "asdasd123",
+      "itemId": 2,
+      "itemName": "EYE/LOEWE/NATURE",
+      "color": "White",
+      "price": "20EUR",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1328108_1_zoom.jpg"
+    },
+    {
+      "id": 5,
+      "username": "asdasd123",
+      "itemId": 2,
+      "itemName": "EYE/LOEWE/NATURE",
+      "color": "White",
+      "price": "20EUR",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1328108_1_zoom.jpg"
+    }
+  ],
+  "sneakers": [
+    {
+      "id": 6,
+      "name": "Adidas Yeezy 700 Wave Runner",
+      "type": "Sneaker",
+      "img": "https://stockx-360.imgix.net/Adidas-Yeezy-Wave-Runner-700-Solid-Grey/Images/Adidas-Yeezy-Wave-Runner-700-Solid-Grey/Lv2/img15.jpg?auto=format,compress&q=90&updated_at=1538080256&w=1000",
+      "color": "white",
+      "price": "390EUR"
+    }
+  ],
+  "clothing": [
+    {
+      "id": 1,
+      "name": "Balenciaga",
+      "type": "T-shirt",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1314315_1_zoom.jpg",
+      "color": "white",
+      "price": "30EUR"
+    },
+    {
+      "id": 2,
+      "name": "EYE/LOEWE/NATURE",
+      "type": "T-shirt",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1328108_1_zoom.jpg",
+      "color": "White",
+      "price": "20EUR"
+    },
+    {
+      "id": 3,
+      "name": "Givenchy",
+      "type": "T-shirt",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1242725_1_zoom.jpg",
+      "color": "Black",
+      "price": "50EUR"
+    },
+    {
+      "id": 4,
+      "name": "PALM ANGELS",
+      "type": "Hoodie",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1324699_1_zoom.jpg",
+      "color": "white",
+      "price": "100EUR"
+    },
+    {
+      "id": 5,
+      "name": "BURBERRY",
+      "type": "Hoodie",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1310901_1_zoom.jpg",
+      "color": "white",
+      "price": "10EUR"
+    },
+    {
+      "id": 6,
+      "name": "Gucci",
+      "type": "Hoodie",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1311910_1_zoom.jpg",
+      "color": "white",
+      "price": "100EUR"
+    }
+  ],
+  "newArrivals": [
+    {
+      "id": 1,
+      "name": "Balenciaga",
+      "type": "T-shirt",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1314315_1_zoom.jpg",
+      "color": "white",
+      "price": "30EUR"
+    },
+    {
+      "id": 2,
+      "name": "EYE/LOEWE/NATURE",
+      "type": "T-shirt",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1328108_1_zoom.jpg",
+      "color": "White",
+      "price": "20EUR"
+    },
+    {
+      "id": 3,
+      "name": "Givenchy",
+      "type": "T-shirt",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1242725_1_zoom.jpg",
+      "color": "Black",
+      "price": "50EUR"
+    },
+    {
+      "id": 4,
+      "name": "PALM ANGELS",
+      "type": "Hoodie",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1324699_1_zoom.jpg",
+      "color": "white",
+      "price": "100EUR"
+    },
+    {
+      "id": 5,
+      "name": "BURBERRY",
+      "type": "Hoodie",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1310901_1_zoom.jpg",
+      "color": "white",
+      "price": "10EUR"
+    },
+    {
+      "id": 6,
+      "name": "Gucci",
+      "type": "Hoodie",
+      "img": "https://assetsprx.matchesfashion.com/img/product/1311910_1_zoom.jpg",
+      "color": "white",
+      "price": "100EUR"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

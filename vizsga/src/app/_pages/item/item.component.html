@@ -1,0 +1,79 @@
+  <div class="container">
+    <div class="row mt-3">
+      <div class="offset-1"></div>
+      <div class="col-md-6" style="margin: 0 auto">
+        <div *ngIf="clothes != null" class="col-md-12 col-sm-12 col-xs-12">
+          <div class="card shadow rounded">
+            <img class="card-img-top img-fluid item-img" src="{{clothes.img}}" alt="Clothing">
+            <div class="card-body text-center"> 
+              <img *ngIf="show" class="explosion" src="../../../assets/img/ezgif.gif" alt="explosion">
+            </div>
+          </div>
+        </div>    
+      </div>
+
+      <div class="col-md-4 col-sm-12 mt-4" *ngIf="clothes != null">
+        <h4>{{clothes.name}}</h4>
+        <h5>{{clothes.type}}</h5>
+        <b>{{clothes.price}}</b><br>
+
+        <h5 class="mt-5">Details</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum perferendis repudiandae fugit eveniet, consectetur recusandae eaque aut atque facilis minima!</p>
+
+        <h5 class="mt-5">Size</h5>
+        <div *ngIf="clothes.typeId != 4" class="btn-group" data-toggle="buttons">
+          <label class="btn btn-light">
+            <input type="radio" name="options" id="options" checked> XS
+          </label>
+          <label class="btn btn-light">
+            <input type="radio" name="options" id="options"> S
+          </label>
+          <label class="btn btn-light">
+            <input type="radio" name="options" id="options"> M
+          </label>
+          <label class="btn btn-light">
+            <input type="radio" name="options" id="options"> L
+          </label>
+        </div>
+
+        <!-- Ha cipő -->
+        <div *ngIf="clothes.typeId == 4" class="btn-group" data-toggle="buttons">
+          <label class="btn btn-light">
+            <input type="radio" name="options" id="options" checked> 41
+          </label>
+          <label class="btn btn-light">
+            <input type="radio" name="options" id="options"> 42
+          </label>
+          <label class="btn btn-light">
+            <input type="radio" name="options" id="options"> 43
+          </label>
+          <label class="btn btn-light">
+            <input type="radio" name="options" id="options"> 44
+          </label>
+        </div>
+
+        <h5 class="mt-5">Color</h5>
+        <button [style.background-color]="clothes.color" class="colorBox"></button>
+
+        <p class="text-muted mt-4">Free Delivery Over 50EUR</p>
+
+        <!-- Kosárhoz adás gomb -->
+        <button *ngIf="currentUser != null" type="submit" (click)="sendData()" class="text-center btn send mt-5">
+          Add to cart
+          <br>
+          <b>{{clothes.price}}</b>
+        </button>
+
+        <b>Please login to order this Item</b>
+      </div>
+
+      <div class="offset-1"></div>
+
+    </div>
+  </div>
+<!-- </div> -->
+<br>
+
+
+
+
